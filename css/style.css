@@ -81,6 +81,13 @@
 		z-index: 9999;
 	}
 
+	.comp-bg {
+		background-image: url(../images/double.png);
+		background-position: absolute;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	#pre-status,
 	.preload-placeholder {
 		background-image: url(../images/preloader.gif);
@@ -256,6 +263,32 @@
 		color: #00C227;
 	}
 
+/* ======Comp page===== */
+.hero{
+	/*Sizing*/
+	width: 100vw;
+	height: 100vh;
+
+	/*Flexbox stuff*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*Text styles*/
+	text-align: center;
+
+	/*Background styles*/
+	background-image: url(../images/global.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+}
+
+
+
+/* ======Comp page===== */
+
 	
 
 
@@ -339,7 +372,7 @@
 	}
 
 	#highlight{
-		color:#808b8d;
+		color:#000000
 		font-size: 14px;
 		text-transform: uppercase;
 	}
