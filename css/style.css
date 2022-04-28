@@ -6408,6 +6408,11 @@ a.close.disabled {
   background-repeat: no-repeat;
 }
 
+.bg-about{
+  background-image: url(../img/bg.jpg);
+  background-size: contain;
+  
+}
 
 .bg-cover {
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/bg.jpg);
