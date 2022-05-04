@@ -6390,7 +6390,7 @@ a.close.disabled {
 .bg-vns{
   
   /* Sizing */
-  width:100vw;
+  width:auto;
   height:100vh;
 
   /* Flexbox stuff */
@@ -6466,7 +6466,7 @@ a.close.disabled {
 
 .hero{
   /* Sizing */
-  width:100vw;
+  width:auto;
   height:100vh;
 
   /* Flexbox stuff */
