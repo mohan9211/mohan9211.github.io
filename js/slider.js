@@ -1,26 +1,42 @@
-const dots = document.querySelectorAll(".dot-container button");
-const images = document.querySelectorAll(".image-container img");
-
-let i = 0; // current slide
-let j = 4; // total slides
-
-function next(){
-    document.getElementById("content" + (i+1)).classList.remove("active");
-    i = ( j + i + 1) % j;
-    document.getElementById("content" + (i+1)).classList.add("active");
-    indicator( i+ 1 );
-}
-
-function prev(){
-    document.getElementById("content" + (i+1)).classList.remove("active");
-    i = (j + i - 1) % j;
-    document.getElementById("content" + (i+1)).classList.add("active");
-    indicator(i+1);
-}
-
-function indicator(num){
-    dots.forEach(function(dot){
-        dot.style.backgroundColor = "transparent";
-    });
-    document.querySelector(".dot-container button:nth-child(" + num + ")").style.backgroundColor = "#076bb8";
+$(document).ready(function(){
+    if (jquery().flexslider) {
+        //flexslider ticker
+        $('.flexslider-ticker').each(function(){
+            var tickerSettings= {
+                anmiation: "slide",
+                animationLoop:false,
+                selector: ".items>.item",
+                move:1,
+                controlNav:false,
+                slideshow:true,
+                direction: 'vertical'
+            };
+            $(this).flexslider(tickerSettings);
+        });
+        //flexsliders
+        $('.flexslider').each(function(){
+            var sliderSettings={
+                animation: $(this).attr('data-transition');
+                selector:"slides>.slide",
+                controlNav:false,
+                smoothHeight:true,
+                prevText:"",
+                nextText:"",
+                sync:$(this).data('slidernav') || '',
+                start:function(slider){
+                    if (slider.find('[data-slide-bg-stretch=true]').length > 0) {
+                        slider.find('[data-slide-bg-stretch=true]').each(function(){
+                            if ($(this).data('slide-bg')){$(this).backstretch ($(this).data('slide-bg'));
+                        //$(this).data('slide-bg');
+                    }
+                        });
+                    }
+                }
+            };
+            $('html').addClass('has-flexslider');
+            $(this).flexslider(sliderSettings);
+        });
+        $(window).delay(1000).trigger('resize');//make sure height is right load asset loaded
+        }
+    }   
 }
