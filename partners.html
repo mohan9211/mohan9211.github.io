@@ -27,66 +27,24 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- nav and footer -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+          $("#footer-placeholder").load("footer.html");
+        });
+        </script>
 </head>
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-light position-relative shadow">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
-            <!--<a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
-                <i class="flaticon-043-teddy-bear"></i>
-                <span class="text-primary"></span>
-            </a>-->
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav font-weight-bold mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <div class="nav-item dropdown">
-                        <a href="https://www.scienceforsociety.com/s4s-2021-overview" target="_blank" class="nav-link dropdown-toggle" data-toggle="dropdown">Past Conferences</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="https://www.scienceforsociety.com/2020-iv-conf-stanford" target="_blank" class="dropdown-item">2020-IV-Conf.</a>
-                            <a href="https://www.scienceforsociety.com/2019-iv-conf-stanford" target="_blank" class="dropdown-item">2019-IV-Conf.</a>
-                            <a href="https://www.scienceforsociety.com/2018-iv-conf-stanford" target="_blank" class="dropdown-item">2018-IV-Conf.</a>
-                            <a href="https://www.scienceforsociety.com/2017-collaboration" target="_blank" class="dropdown-item">2017-IV-Conf.</a>
-                            <a href="https://www.scienceforsociety.com/2016-innovation" target="_blank"  class="dropdown-item">2016-IV-Conf.</a>
-                            <a href="https://www.scienceforsociety.com/2015-conference" target="_blank" class="dropdown-item">2015-IV-Conf.</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="https://www.scienceforsociety.com/s4s-2021-overview" target="_blank" class="nav-link dropdown-toggle" data-toggle="dropdown">Best Practices Competition</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="register.html#reg" class="dropdown-item">Register</a>
-                            <a href="register.html#details" class="dropdown-item">Details for Participants</a>
-                            <a href="register.html#instruction" class="dropdown-item">Instructions for Registration</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="partners.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Organisers</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="partners.html#wgf" class="dropdown-item">WGF</a>
-                            <a href="partners.html#stanford" class="dropdown-item">Stanford</a>
-                            <a href="partners.html#scienceforsociety" class="dropdown-item">Science for Society</a>
-                            <a href="partners.html#bhu" class="dropdown-item">BHU</a>
-                            <a href="partners.html#imbhu" class="dropdown-item">imBHU</a>
-                            <a href="partners.html#paniit" class="dropdown-item">PanIIT</a>
-                        </div>
-                    </div>
-                    <a href="sponsors.html" class="nav-item nav-link">Sponsors</a>
-                    <!--<div class="nav-item dropdown">
-                        <a href="dates.html" class="nav-link dropdown-toggle active" data-toggle="dropdown">Dates</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="dates.html#agenda" class="dropdown-item">Conference Agenda</a>
-                            <a href="dates.html#timeline" class="dropdown-item">Timeline</a>
-                        </div>
-                    </div>-->
-                    <a href="venue.html" class="nav-item nav-link">Venue</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                </div>
-                <a href="https://forms.gle/V8bpP5N3bSoFvzPu6" target="_blank" class="btn btn-primary px-4">Register</a>
-            </div>
-        </nav>
+    <div id="nav-placeholder">
+
     </div>
     <!-- Navbar End -->
 
@@ -110,15 +68,22 @@
         <div class="row pt-5">
             <div>
                 <div id="wgf" class="mb-5 text-justify">
-                    <h2 id="author-guide" class="mb-4 text-center font"><a href="https://www.wheelsglobal.org">WHEELS GLOBAL FOUNDATION (WGF)</a></h2>
-                    <a href="https://www.wheelsglobal.org"><img class="img-responsive rounded w-25 float-left mr-4 mb-3" src="img/Untitled-4.png" alt="Image"></a>
-                    <p >With a mission to give back to India, USA and to global communities by providing technological solutions to issues related with water, health, energy, education, livelihood, and sustainability, a not for profit organization was formed to distinguish from the mission of PAN IIT Alumni Foundation, giving rise to WHEELS Global Foundation (WGF). In 2013, WGF was founded as an independent 501c3 to provide innovative technology driven solutions to the challenges that affect the global rural population in six areas; <strong>Water, Healthcare, Energy, Education, Livelihood and Sustainability</strong>. The organization partners with other national and international NGO’s and non-profit organizations, working in collaboration to provide assistance to a larger rural population globally. Our goal is to increase access, communication, and funding for technologies and/or charitable missions aimed at improving the living conditions of citizens across the globe through the implementation of sustainable programs.
-                    </p><a href="https://www.wheelsglobal.org">https://www.wheelsglobal.org</a><br><br>
-                    
                     <h2 id="stanford" class="mb-4 text-center font"><a href="https://www.stanford.edu">STANFORD</a></h2>
                     <a href="https://www.stanford.edu"><img class="img-responsive rounded w-25 float-left mr-4 mb-3" src="img/Organizers/Untitled-2.png" alt="Image"></a>
                     <p >The Annual Ideal Village Conferences at Stanford have created a matrix for collaboration, networking and sharing of rural development experiences, knowledge, and project learnings between these organizations. The webinar series hosted by WGF has served as forum for thought leadership, best practices, key takeaways and practical outcomes in rural development. The 1st Ideal Village conference at Stanford University was focused on <strong>“Innovations for the Ideal Village”</strong>, and themes in subsequent years included: <strong>“Collaborations for the Ideal Village” (2017), “Empowerment of Women in Rural/Underserved Communities” (2018),  “Corporate Social Responsibility” (2019) and  "Sustainability and the Pandemic: Ensuring Human and Environmental Wellbeing." (2020)</strong>
                     </p><a href="https://www.stanford.edu">https://www.stanford.edu</a><br><br>
+
+                    <h2 id="paniit" class="mb-4 text-center font"><a href="http://paniit.org">PANIIT</a>
+                    </h2 ><a href="http://paniit.org"><img class="img-responsive rounded w-25 float-left mr-4 mb-3" src="img/Organizers/Paniit.png" alt="Image"></a>
+                    <p >PanIIT Alumni India (Pan IIT) is an umbrella organization, representing alumni of all Indian Institutes of Technology (IITs). Pan IIT is a not-for-profit Society under the Societies Registration Act XXI of 1860 with Registration No. S-56680 of 2006 dated 20 September 2006 duly registered with the Registrar of Societies, Government of NCT of Delhi, Delhi. It is the Indian legal entity of the global Pan IIT Alumni movement.
+                        The movement, over the years, has developed and and spread in various parts of the world.  Besides India, it has a very active presence in the United States, Canada, United Kingdom, Korea, Singapore, and Australia.</p><a href="https://www.paniit.org">https://www.paniit.org</a>
+
+                    <h2 id="wheels" class="mb-4 text-center font"><a href="https://www.wheelsglobal.org">WHEELS GLOBAL FOUNDATION (WGF)</a></h2>
+                    <a href="https://www.wheelsglobal.org"><img class="img-responsive rounded w-25 float-left mr-4 mb-3" src="img/Untitled-4.png" alt="Image"></a>
+                    <p >With a mission to give back to India, USA and to global communities by providing technological solutions to issues related with water, health, energy, education, livelihood, and sustainability, a not for profit organization was formed to distinguish from the mission of PAN IIT Alumni Foundation, giving rise to WHEELS Global Foundation (WGF). In 2013, WGF was founded as an independent 501c3 to provide innovative technology driven solutions to the challenges that affect the global rural population in six areas; <strong>Water, Healthcare, Energy, Education, Livelihood and Sustainability</strong>. The organization partners with other national and international NGO’s and non-profit organizations, working in collaboration to provide assistance to a larger rural population globally. Our goal is to increase access, communication, and funding for technologies and/or charitable missions aimed at improving the living conditions of citizens across the globe through the implementation of sustainable programs.
+                    </p><a href="https://www.wheelsglobal.org">https://www.wheelsglobal.org</a><br><br>
+                    
+                    
                     
                     <h2 id="scienceforsociety" class="mb-4 text-center font"><a href="https://www.scienceforsociety.com">SCIENCE FOR SOCIETY</a></h2>
                     <a href="https://www.scienceforsociety.com"><img class="img-responsive rounded w-25 float-left mr-4 mb-3" src="img/Untitled-1.png" alt="Image"></a>
@@ -135,10 +100,17 @@
                         Envisaging the increasing need for imparting quality management education and research, the University transformed the Department of Management Studies to an independent Faculty of Management Studies in the year 1984. Since then dedicated efforts were made to run innovative, need based programmes for the corporate world under the dynamic leadership of professors of national and international repute.
                         As a recognition of its contributions and enhanced future role it has to play in the Faculty was upgraded to Institute of Management Studies, Faculty of Management Studies has been upgraded to Institute of Management Studies, Banaras Hindu University on 16 December 2015. With continuous revision and innovation, the Institute has always been grooming managers capable of handling complex business operations of the day and future.</p><a href="https://www.bhu.ac.in/fms/#">https://www.bhu.ac.in/fms/</a><br><br>
                         
-                        <h2 id="paniit" class="mb-4 text-center font"><a href="http://paniit.org">PANIIT</a>
-                        </h2 ><a href="http://paniit.org"><img class="img-responsive rounded w-25 float-left mr-4 mb-3" src="img/Organizers/Paniit.png" alt="Image"></a>
-                        <p >PanIIT Alumni India (Pan IIT) is an umbrella organization, representing alumni of all Indian Institutes of Technology (IITs). Pan IIT is a not-for-profit Society under the Societies Registration Act XXI of 1860 with Registration No. S-56680 of 2006 dated 20 September 2006 duly registered with the Registrar of Societies, Government of NCT of Delhi, Delhi. It is the Indian legal entity of the global Pan IIT Alumni movement.
-                            The movement, over the years, has developed and and spread in various parts of the world.  Besides India, it has a very active presence in the United States, Canada, United Kingdom, Korea, Singapore, and Australia.</p><a href="https://www.paniit.org">https://www.paniit.org</a>
+                        <h2 id="fipa" class="mb-4 text-center font"><a href="https://fipa.global">FEDERATION OF INDIAN PHYSICIANS ASSOCIATIONS</a></h2>
+                        <a href="https://fipa.global"><img class="img-responsive rounded w-25 float-left mr-4 mb-3" src="img/fipa.png" alt="Image"></a>
+                        <p >The Federation of Indian Physician Association, FIPA has been established to facilitate the aspirations of 21st Century physicians of Indian origin. The objectives are to engage Indian physicians, help them pursue their professional and community work.
+
+                            Right from inception, our motto is to ensure more involvement of physicians from India to have interest in young generation mentorship.  We are raising donations for charitable work and fight for patient/physician rights.
+                            
+                            FIPA respects, keeps cognizance of the contribution of Indian physicians to the North American and other healthcare systems. Coming from a land of multilingual tongue, India, a symbol of cultural brotherhood, we strongly believe in “Unity in Diversity”.
+                            
+                            FIPA has been functioning with great responsibility in improving the public health system in North America and also globally. At present, we are committed to contribute excellence in:  Academic/ Education, Charitable, Legislative, Financial Literacy, Mentorship programs for next generation, Entrepreneurial and skill development.</p><a href="https://fipa.global">https://fipa.global</a><br><br>
+                            
+                        
                 </div>
             </div>
         </div>
@@ -148,86 +120,8 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="row pt-5">
-            <div class="col-lg-5 col-md-6 mb-5 m-3">
-                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
-                    <!--<i class="flaticon-043-teddy-bear"></i>-->
-                    <h3 class="text-white font"><a href="https://www.ivwgf2022imbhu.in">ivwgf2022imbhu.in</a></h3>
-                </a>
-                <p class="text-justify">WGF Conference will be held in India in view of the Indian Government’s major push in rural development. This is to initiate a global movement in Integrated Rural Development.</p><p class="text-justify">Given the high quality and diversity of topics, speakers, organizations and participants over the past six years, the theme for 2022 Ideal Village Conference will be “Rural Transformation for Sustainable Growth” to capture the lessons learnt and best practices from successful implementations and thereby define the future of global rural development.</p>
-                <div class="d-flex justify-content-start mt-4">
-                    <!--<a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>-->
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 m-3">
-                <h3 class="text-primary mb-4 font">Get In Touch</h3>
-                <div class="d-flex">
-                    <h4 class="fa fa-map-marker-alt text-primary"></h4>
-                    <div class="pl-3">
-                        <h5 class="text-white font">Address</h5>
-                        <p>Institute of Management Studies <br>(Faculty of Management Studies),<br> Varanasi 221005,<br> Uttar Pradesh, India
-                        </p>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <h4 class="fa fa-envelope text-primary"></h4>
-                    <div class="pl-3">
-                        <h5 class="text-white font">Email</h5>
-                        <p><a href="mailto:ivwgf2022@fmsbhu.ac.in">ivwgf2022@fmsbhu.ac.in</a></p>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <h4 class="fa fa-phone-alt text-primary"></h4>
-                    <div class="pl-3">
-                        <h5 class="text-white font">Phone</h5>
-                        <p>+91 542 2369332</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 m-3">
-                <h3 class="text-primary mb-4 font">Quick Links</h3>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Conference</a>
-                    <a class="text-white mb-2" href="register.html"><i class="fa fa-angle-right mr-2"></i>Registrations</a>
-                    <!--<a class="text-white mb-2" href="call-for-paper.html"><i class="fa fa-angle-right mr-2"></i>Call for Papers</a>-->
-                    <a class="text-white mb-2" href="partners.html"><i class="fa fa-angle-right mr-2"></i>Partners</a>
-                    <a class="text-white mb-2" href="dates.html"><i class="fa fa-angle-right mr-2"></i>Dates</a>
-                    <a class="text-white mb-2" href="venue.html"><i class="fa fa-angle-right mr-2"></i>Venue</a>
-                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
-                </div>
-            </div>
-            <!--<div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
-                <form action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                            required="required" />
-                    </div>
-                    <div>
-                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
-                    </div>
-                </form>
-            </div>-->
-        </div>
-        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
-            <p class="m-0 text-center text-white">Copyright
-                &copy; <a class="text-primary font-weight-bold" href="index.html">ivwgf2022imbhu.in</a>.2022 All Rights Reserved. Designed & Developed
-                by
-                <a class="text-primary font-weight-bold" href="#">Hari</a> & <a class="text-primary font-weight-bold" href="https://linktr.ee/mohan9211">Mohan</a>
-            </p>
-        </div>
+    <div id="footer-placeholder">
+
     </div>
     <!-- Footer End -->
 
