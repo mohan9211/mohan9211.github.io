@@ -6534,9 +6534,15 @@ button.bg-primary:hover,
 button.bg-primary:focus {
   background-color: #117a8b !important;
 }
+.text-footer{
+  color:#333;
+}
 
 .bg-secondary {
   background-color: #00394f !important;
+}
+.bg-footer{
+  background-color: #f5f7fa;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
