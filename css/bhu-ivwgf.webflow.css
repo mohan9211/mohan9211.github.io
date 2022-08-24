@@ -451,6 +451,13 @@ h1 {
 
 .text-block-2 {
   font-family: Inter, sans-serif;
+  color: #598cef;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.text-block-2a {
+  font-family: Inter, sans-serif;
   color: #05c270;
   font-size: 20px;
   line-height: 22px;
