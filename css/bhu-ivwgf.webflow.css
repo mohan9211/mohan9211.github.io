@@ -464,6 +464,13 @@ h1 {
   font-weight: 600;
 }
 
+.text-block-2c {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
 .div-block-5 {
   display: -ms-grid;
   display: grid;
@@ -629,6 +636,13 @@ h1 {
   color: #1163e2;
   font-size: 27px;
   line-height: 28px;
+}
+.accommodation {
+  margin-bottom: 0px;
+  font-family: Inter, sans-serif;
+  color: #080808;
+  font-size: 22px;
+  line-height: 23px;
 }
 
 .heading-2.hivc._4 {
@@ -948,6 +962,10 @@ h1 {
 
 .text-block-6 {
   font-family: Inter, sans-serif;
+}
+.text-block-6 {
+  font-family: Inter, sans-serif;
+  color: #000 !important;
 }
 
 .div-block-10 {
@@ -1432,6 +1450,9 @@ h1 {
   align-items: flex-start;
 }
 
+.black-text{
+  color:#000 !important
+}
 .div-block-18 {
   display: -ms-grid;
   display: grid;
