@@ -3162,6 +3162,10 @@ h1 {
   }
 }
 
+iframe{
+  width: -webkit-fill-available;
+}
+
 @media screen and (max-width: 767px) {
   .navbar-logo-left-container {
     max-width: 100%;
@@ -3323,6 +3327,10 @@ h1 {
   .footer-divider {
     margin-top: 60px;
   }
+}
+
+iframe{
+  width: -webkit-fill-available;
 }
 
 @media screen and (max-width: 479px) {
@@ -3989,6 +3997,10 @@ h1 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  iframe{
+    width: -webkit-fill-available;
   }
 
   .heading-3 {
@@ -5211,3 +5223,6 @@ h1 {
   }
 }
 
+iframe{
+  width: -webkit-fill-available;
+}
