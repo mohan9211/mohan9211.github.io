@@ -5228,7 +5228,7 @@ iframe{
   width: -webkit-fill-available;
 }
 
-.live{
+/*.live{
   background-color: #1c87c9;
   -webkit-border-radius: 60px;
   border-radius: 60px;
@@ -5256,7 +5256,7 @@ iframe{
     background-color: red;
     box-shadow: 0 0 5px red;
   }
-}
+}*/
 
 .twitter-tweet{
   width: 300px !important;
