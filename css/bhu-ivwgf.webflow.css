@@ -1424,7 +1424,34 @@ h1 {
   background-color: #fff;
 }
 
+.key-contacts {
+  padding: 30px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e9e9e9;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+
 .div-block-9-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e9e9e9;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.key-contacts {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1579,7 +1606,7 @@ h1 {
   background-color: #fff;
 }
 
-.div-block-9-copy-copy {
+.key-contacts-copy {
   padding: 30px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -1605,7 +1632,7 @@ h1 {
   background-color: #fff;
 }
 
-.div-block-9-copy-copy {
+.key-contacts-copy {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3742,6 +3769,10 @@ iframe{
     padding: 20px;
   }
 
+  .key-contacts-copy{
+    padding: 20px;
+  }
+
   .div-block-11-copy-copy-copy {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5333,4 +5364,54 @@ iframe{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+/* Hover effects */
+.div-block-6:hover{
+  box-shadow: 0 4px 8px 0 rgba(96, 76, 250, 0.2);
+  color: #1163e2;
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  
+}
+
+*img {
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+
+.div-block-8>a>img:hover,
+.partner-logos:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-color: #1163e2;
+  transform: scale(1.1);
+}
+
+
+.div-block-9-copy:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color)
+}
+
+.key-contacts:hover,
+.key-contacts-copy:hover,
+.div-block-17>div:hover
+{
+  background-color: #e4ecfa;
+  border-color: #1163e2;
+}
+
+.div-block-22>a:hover,
+.text-block-11:hover,
+.div-block-21>a:hover{
+  box-shadow: 0 4px 8px 0 rgba(96, 76, 250, 0.2);
+}
+
+.div-block-4:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  opacity: 0.7;
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color)
 }
