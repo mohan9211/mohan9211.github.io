@@ -44,7 +44,17 @@
     <div class="div-block-33"><img src="../images/image-25.png" loading="lazy" width="81" srcset="../images/image-25-p-500.png 500w, ../images/image-25.png 664w" sizes="(max-width: 479px) 66vw, 81px" alt="" class="phv">
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="div-block-22">
-          <a href="../live-conference.html" class="nav-link-2 w-nav-link live">Event Highlights</a>
+          <div data-hover="true" data-delay="0" class="w-dropdown">
+            <div class="dropdown-toggle-2 w-dropdown-toggle">
+              <div class="w-icon-dropdown-toggle"></div>
+              <div class="text-block-11">Event Gallery</div>
+            </div>
+            <nav class="dropdown-list w-dropdown-list">
+              <a href="../doc/overview.html" class="dropdown-link w-dropdown-link">Event Videos</a>
+              <a href="../doc/gallery.html" class="dropdown-link-2 w-dropdown-link">Photos</a>
+              <a href="../live-conference.html" class="w-dropdown-link">Highlights</a>
+            </nav>
+          </div>
           <a href="../index.html" class="nav-link-2 w-nav-link">Home</a>
           <a href="../about.html" class="nav-link-3 w-nav-link">About</a>
           <a href="../agenda.html" class="nav-link-2 w-nav-link">Agenda</a>
@@ -114,9 +124,69 @@
   <div class="section-14 wf-section">
     <div class="container-4 venue w-container">
       <h1 id="w-node-_5a7e02b6-305d-6dd8-62ae-9a49d3fada53-881bd2fc" class="heading-2"><strong>Bhogle, Ms. Svati</strong></h1><div class="div-indiv-speaker"><img src="../images/bhogle-svati386.jpg" loading="lazy" alt="" class="image-9 new"></div>
+      <div class="div-block-20 tabs-menu w-tab-menu">
+        <div class="clickbox">
+          <div class="text-block-10" onclick="openGrid('expd1');">Bio</div>
+        </div>
+        <div class="clickbox">
+          <div class="text-block-10" onclick="openGrid('expd2');">PPT</div>
+        </div>
+        <div class="clickbox">
+          <div class="text-block-10" onclick="openGrid('expd3');">Video</div>
+        </div>
+      </div>
+    </div>
+    <div id="expd1" class="tab" style="display:none;">
+    
       <p class="paragraph-2"><b>Ms.  Svati Bhogle<br>Mentor, TIDE<br>Member, Governing Board Clean Energy Access Network<br>Founder, Sustaintech India Pvt. Ltd.</b><br><br>Ms. Svati Bhogle has been associated with several organizations in India in the area of decentralized renewable energy. She was the first President of the Clean Energy Access Network, a network of practitioners of decentralized renewable energy. She was the CEO and Chairperson of TIDE an award winning non profit, conceived as a link organization between academic / research institutions and the grassroots. She founded Sustaintech to explore scaling options for some of the innovative thermal energy products developed by her. Her area of work is largely in design and dissemination of thermal energy interventions for domestic and rural informal industry applications. She is an Ashoka Fellow and recipient of many awards which include the Ashden Award for Sustainable Energy, National award for women’s development through science and technology of the Department of Science and Technology, Karnataka state Environment award. She has played a crucial role in shaping the space around sustainable technology innovation and dissemination, grassroots entrepreneurship models and associated policy initiatives.<br><br>She is an alumnus of IIT Bombay and was recently felicitated by its IIT Gen Zero Women initiative.<br>‍<br></p>
     </div>
+    <div id="expd2" class="tab" style="display:none;">
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQOxqYPnrkj_9wFXPHykYhAZ8mRSK4D8aX15JlfqWunp1mDftrELefAFavwR0Nf5g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="680" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    <div id="expd3" class="tab" style="display:none;">
+      <span onclick="this.parentElement.style.display='none'" class="closeButton">&times;</span>
+      <iframe width="100%" height="400px" src="https://www.youtube.com/embed/?start=16"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="image-10" ></iframe>
+    </div>
+
   </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .tab {
+      padding: 20px;
+      color: none;
+      background-color:white;
+      border: none;
+    }
+
+    .closeButton {
+      float: right;
+      color: black;
+      font-size: 35px;
+      cursor: pointer;
+    }
+    .clickbox {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 10px 20px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 5px;
+      background-color: rgba(90, 141, 239, 0.23);
+      cursor:pointer;
+    }
+  </style>
   <section class="footer-dark wf-section">
     <div class="container-2">
       <div class="footer-wrapper">

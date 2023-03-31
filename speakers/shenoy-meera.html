@@ -44,7 +44,17 @@
     <div class="div-block-33"><img src="../images/image-25.png" loading="lazy" width="81" srcset="../images/image-25-p-500.png 500w, ../images/image-25.png 664w" sizes="(max-width: 479px) 66vw, 81px" alt="" class="phv">
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="div-block-22">
-          <a href="../live-conference.html" class="nav-link-2 w-nav-link live">Event Highlights</a>
+          <div data-hover="true" data-delay="0" class="w-dropdown">
+            <div class="dropdown-toggle-2 w-dropdown-toggle">
+              <div class="w-icon-dropdown-toggle"></div>
+              <div class="text-block-11">Event Gallery</div>
+            </div>
+            <nav class="dropdown-list w-dropdown-list">
+              <a href="../doc/overview.html" class="dropdown-link w-dropdown-link">Event Videos</a>
+              <a href="../doc/gallery.html" class="dropdown-link-2 w-dropdown-link">Photos</a>
+              <a href="../live-conference.html" class="w-dropdown-link">Highlights</a>
+            </nav>
+          </div>
           <a href="../index.html" class="nav-link-2 w-nav-link">Home</a>
           <a href="../about.html" class="nav-link-3 w-nav-link">About</a>
           <a href="../agenda.html" class="nav-link-2 w-nav-link">Agenda</a>
@@ -114,6 +124,20 @@
   <div class="section-14 wf-section">
     <div class="container-4 venue w-container">
       <h1 id="w-node-_5a7e02b6-305d-6dd8-62ae-9a49d3fada53-881bd2fc" class="heading-2"><strong>Shenoy, Meera</strong></h1><div class="div-indiv-speaker"><img src="../images/image-29_1.png" loading="lazy" alt="" class="image-9 new"></div>
+      <div class="div-block-20 tabs-menu w-tab-menu">
+        <div class="clickbox">
+          <div class="text-block-10" onclick="openGrid('expd1');">Bio</div>
+        </div>
+        <div class="clickbox">
+          <div class="text-block-10" onclick="openGrid('expd2');">PPT</div>
+        </div>
+        <div class="clickbox">
+          <div class="text-block-10" onclick="openGrid('expd3');">Video</div>
+        </div>
+      </div>
+    </div>
+    <div id="expd1" class="tab" style="display:none;">
+    
       <p class="paragraph-2"><b>Meera Shenoy<br> Founder-CEO,Youth4Jobs</b><br><br>
         Meera Shenoy is a Social entrepreneur and System Changer in the disability space. She is a pioneer in skilling of rural, tribal and now youth with disabilities and linking them to jobs, at scale. Hon’ble Prime Minister of India mentioned this in his popular “Mann Ke Baat.” <br><br>
         <b>She set up Youth4Jobs 10 years back which has grown to be the largest organisation in South Asia skilling less educated and educated youth with disabilities and linking them to jobs.</b> This work has touched 9.3 million households with the message of “ability in disability”. It works with 1100+ companies to begin or strengthen their inclusion journey. The work has transformed about 4 million lives of youth with disabilities by counselling, training and linking them to sustainable livelihoods.<br><br>
@@ -121,8 +145,54 @@
         Her previous work was Executive Director, EGMM, the first State government skilling mission for the Andhra Pradesh government, which she set up from scratch and took to scale. This mission influenced Government of Indias’ skilling policy. She then consulted with World Bank across Southeast Asia. Later, she went back to work with the office of the Advisor to Prime Minister for Skilling, supported by UNDP.<br><br>
         Her work is driven by compassion and a belief in the potential of the poor.<strong> She is invited to speak at national and international forums on inclusion and Leading with Purpose.</strong>
         </p>
-    </div>
   </div>
+  <div id="expd2" class="tab" style="display:none;">
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSsb9F3LSNA6Be68briXkA00XTZDf3FqX8XvbvoZV_bQw6FZv1p0unXcWwa3OUiYA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+  <div id="expd3" class="tab" style="display:none;">
+    <span onclick="this.parentElement.style.display='none'" class="closeButton">&times;</span>
+    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/?start=16"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="image-10" ></iframe>
+  </div>
+
+  </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .tab {
+      padding: 20px;
+      color: none;
+      background-color:white;
+      border: none;
+    }
+
+    .closeButton {
+      float: right;
+      color: black;
+      font-size: 35px;
+      cursor: pointer;
+    }
+    .clickbox {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 10px 20px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 5px;
+      background-color: rgba(90, 141, 239, 0.23);
+      cursor:pointer;
+    }
+  </style>
   <section class="footer-dark wf-section">
     <div class="container-2">
       <div class="footer-wrapper">
